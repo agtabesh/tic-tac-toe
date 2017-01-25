@@ -1,0 +1,17 @@
+{
+  "name": "fanavard-22",
+  "version": "1.0.0",
+  "description": "tic-tac-toe game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmad Ganjtabesh",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^1.5.1",
+    "sqlite3": "^3.1.8"
+  }
+}

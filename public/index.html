@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="info">
+  You are: <img src="">
+  &nbsp;&nbsp;&nbsp;
+  <button class="repeat">Repeat</button>
+  &nbsp;&nbsp;&nbsp;
+  <button class="reset">Reset</button>
+  </div>
+
+  <table id="container" border="0">
+    <tr>
+      <td class="place0-0">
+        <a href="#" class="empty" data-row="0" data-col="0"></a>
+      </td>
+      <td class="place0-1">
+        <a href="#" class="empty" data-row="0" data-col="1"></a>
+      </td>
+      <td class="place0-2">
+        <a href="#" class="empty" data-row="0" data-col="2"></a>
+      </td>
+    </tr>
+    <tr>
+      <td class="place1-0">
+        <a href="#" class="empty" data-row="1" data-col="0"></a>
+      </td>
+      <td class="place1-1">
+        <a href="#" class="empty" data-row="1" data-col="1"></a>
+      </td>
+      <td class="place1-2">
+        <a href="#" class="empty" data-row="1" data-col="2"></a>
+      </td>
+    </tr>
+    <tr>
+      <td class="place2-0">
+        <a href="#" class="empty" data-row="2" data-col="0"></a>
+      </td>
+      <td class="place2-1">
+        <a href="#" class="empty" data-row="2" data-col="1"></a>
+      </td>
+      <td class="place2-2">
+        <a href="#" class="empty" data-row="2" data-col="2"></a>
+      </td>
+    </tr>
+  </table>
+
+  <script src="jquery.min.js"></script>
+  <script src="socket.io.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
